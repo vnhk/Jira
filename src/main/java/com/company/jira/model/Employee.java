@@ -1,5 +1,6 @@
 package com.company.jira.model;
 
+
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -9,19 +10,19 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Customer {
-
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String firstName;
-    private String lastName;
+    private String name;
+    private String role;
 
-    protected Customer() {
+    public Employee() {
     }
 
-    public Customer(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Employee(String name, String role) {
+        this.name = name;
+        this.role = role;
     }
+
 }

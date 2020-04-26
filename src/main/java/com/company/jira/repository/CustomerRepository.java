@@ -1,11 +1,8 @@
 package com.company.jira.repository;
 
 import com.company.jira.model.Customer;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
-public interface CustomerRepository extends CrudRepository<Customer, Long> {
-    List<Customer> findByLastName(String lastName);
-    Customer findById(long id);
 }
