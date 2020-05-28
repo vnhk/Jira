@@ -1,0 +1,77 @@
+2020-05-22 21:46:37 TRACE Application:pl.bergholc.bazak.jira.ConsoleApplication:18 - application started
+2020-05-22 21:46:38 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-22 21:46:40 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - admin
+2020-05-22 21:46:40 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-22 21:46:41 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - admin
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:114 - find
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-22 21:46:41 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:120 - SELECT DISTINCT * FROM Users WHERE login = ? AND password = ? 
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-22 21:46:41 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Users WHERE login = 'admin' AND password = 'admin' 
+2020-05-22 21:46:41 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:152 - 1 rows) returned
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:114 - find
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-22 21:46:41 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:120 - SELECT DISTINCT * FROM Users WHERE id = ? 
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-22 21:46:41 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Users WHERE id = '1' 
+2020-05-22 21:46:41 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:152 - 1 rows) returned
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:44 - showMenu
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:35 - getOptionNumber
+2020-05-22 21:46:41 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-22 21:46:51 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - 9
+2020-05-22 21:46:51 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:21 - doActionExist
+2020-05-22 21:46:51 DEBUG Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:47 - 8
+2020-05-22 21:46:51 TRACE Application:pl.bergholc.bazak.jira.view.console.DocumentConsoleView:41 - getProjectId
+2020-05-22 21:46:51 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-22 21:46:52 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - 1
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:114 - find
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-22 21:46:52 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:120 - SELECT DISTINCT * FROM Permissions WHERE projectId = ? 
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-22 21:46:52 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Permissions WHERE projectId = '1' 
+2020-05-22 21:46:52 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:152 - 0 rows) returned
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.utility.RepositoryUtility:14 - castFromPersistable
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:44 - showMenu
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:35 - getOptionNumber
+2020-05-22 21:46:52 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-22 21:46:57 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - 13
+2020-05-22 21:46:57 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:21 - doActionExist
+2020-05-22 21:46:57 DEBUG Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:47 - 12
+2020-05-22 21:46:57 TRACE Application:pl.bergholc.bazak.jira.ConsoleApplication:44 - application ended
+2020-05-28 13:57:45 TRACE Application:pl.bergholc.bazak.jira.ConsoleApplication:18 - application started
+2020-05-28 13:57:46 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-28 13:57:48 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - admin
+2020-05-28 13:57:48 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-28 13:57:49 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - admin
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:113 - find
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-28 13:57:49 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:119 - SELECT DISTINCT * FROM Users WHERE login = ? AND password = ? 
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-28 13:57:49 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Users WHERE login = 'admin' AND password = 'admin' 
+2020-05-28 13:57:49 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:153 - 1 rows returned
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:113 - find
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-28 13:57:49 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:119 - SELECT DISTINCT * FROM Users WHERE id = ? 
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-28 13:57:49 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Users WHERE id = '1' 
+2020-05-28 13:57:49 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:153 - 1 rows returned
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:44 - showMenu
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.view.console.ConsoleMenu:35 - getOptionNumber
+2020-05-28 13:57:49 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-28 13:59:12 TRACE Application:pl.bergholc.bazak.jira.ConsoleApplication:18 - application started
+2020-05-28 13:59:13 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-28 13:59:16 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - ass
+2020-05-28 13:59:16 TRACE Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:11 - loadFromConsole()
+2020-05-28 13:59:17 DEBUG Application:pl.bergholc.bazak.jira.service.ConsoleTextManager:15 - dd
+2020-05-28 13:59:17 TRACE Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:113 - find
+2020-05-28 13:59:17 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:21 - getTableName
+2020-05-28 13:59:17 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:40 - getSqlConditionQuery
+2020-05-28 13:59:17 DEBUG Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:119 - SELECT DISTINCT * FROM Users WHERE login = ? AND password = ? 
+2020-05-28 13:59:17 TRACE Application:pl.bergholc.bazak.jira.utility.SqlUtility:60 - getPreparedStatement
+2020-05-28 13:59:17 DEBUG Application:pl.bergholc.bazak.jira.utility.SqlUtility:64 - com.mysql.cj.jdbc.ClientPreparedStatement: SELECT DISTINCT * FROM Users WHERE login = 'ass' AND password = 'dd' 
+2020-05-28 13:59:17 INFO  Application:pl.bergholc.bazak.jira.persistence.sql.SqlPersistenceManager:153 - 0 rows returned

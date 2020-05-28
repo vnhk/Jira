@@ -1,0 +1,21 @@
+body {
+     background-color: #212134;
+     color: white;
+}
+
+h1,h2{
+    margin-top: 5%;
+     text-align: center;
+}
+
+.table{
+     background-color: #323245;
+     color: white;
+
+}
+table{
+    margin:0 !important;
+}
+
+
+
